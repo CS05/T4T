@@ -1,24 +1,245 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="T4T" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Screenshot_2023-08-08_at_1.06.04_PM-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="gjQ-tV-1N3">
+                                <rect key="frame" x="38" y="135" width="339" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sfF-F6-dTu">
+                                <rect key="frame" x="115" y="383" width="163" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0ZN-Cn-uPZ">
+                                <rect key="frame" x="115" y="444" width="163" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="995-tz-mSc">
+                                <rect key="frame" x="158" y="553" width="76" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Sign in"/>
+                                <connections>
+                                    <segue destination="ujB-IV-lI0" kind="presentation" modalPresentationStyle="fullScreen" id="YOa-vp-9UI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Em-Kh-u46">
+                                <rect key="frame" x="155" y="626" width="82" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Sign up"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-503" y="-14"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RkF-BG-4hF">
+            <objects>
+                <viewController id="ujB-IV-lI0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sBh-0u-ufP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tMp-HC-nEw">
+                                <rect key="frame" x="16" y="42" width="361" height="759"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="35"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="91" translatesAutoresizingMaskIntoConstraints="NO" id="OLc-9Y-m9U">
+                                <rect key="frame" x="43" y="63" width="307" height="534.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Offerings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qq5-aV-jd9">
+                                        <rect key="frame" x="0.0" y="0.0" width="307" height="33.666666666666664"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33.670000000000002" id="5MQ-MZ-rc3"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="31"/>
+                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="56" translatesAutoresizingMaskIntoConstraints="NO" id="PRM-YR-tTf">
+                                        <rect key="frame" x="0.0" y="124.66666666666666" width="307" height="76"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WF0-o4-jqC">
+                                                <rect key="frame" x="0.0" y="0.0" width="125.66666666666667" height="76"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="graduationcap.fill" catalog="system" imagePlacement="top" title="Courses">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                                    <fontDescription key="titleFontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="coursesButton:" destination="zQB-oX-wFm" eventType="touchUpInside" id="Bxo-BT-3LH"/>
+                                                    <action selector="coursesButtonTapped:" destination="zQB-oX-wFm" eventType="touchUpInside" id="UUA-y6-3R2"/>
+                                                    <segue destination="oEY-41-0f2" kind="show" id="W5z-Bx-xXM"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4e9-p9-6ts">
+                                                <rect key="frame" x="181.66666666666666" y="0.0" width="125.33333333333334" height="76"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="cross.vial.fill" catalog="system" imagePlacement="top" title="Hygiene">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                                    <fontDescription key="titleFontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="ada-L8-n9q" kind="show" id="6A5-94-90O"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="51" translatesAutoresizingMaskIntoConstraints="NO" id="DEb-wt-ITm">
+                                        <rect key="frame" x="0.0" y="291.66666666666669" width="307" height="76"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLC-vZ-pga">
+                                                <rect key="frame" x="0.0" y="0.0" width="128" height="76"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="person.fill" catalog="system" imagePlacement="top" title="Leadership" titleAlignment="automatic">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                                    <fontDescription key="titleFontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="leadershipButton:" destination="zQB-oX-wFm" eventType="touchUpInside" id="fzA-QC-5fq"/>
+                                                    <segue destination="8EU-dc-UN2" kind="show" id="ovh-Ud-fFu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRZ-EQ-rQ7">
+                                                <rect key="frame" x="179" y="0.0" width="128" height="76"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="wrench.adjustable.fill" catalog="system" imagePlacement="top" title="Training" titleAlignment="automatic">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                                    <fontDescription key="titleFontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="N7A-a8-ogs" kind="show" id="IRi-Dr-rwH"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iaw-Ik-TlQ">
+                                        <rect key="frame" x="0.0" y="458.66666666666663" width="307" height="76"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="bubble.fill" catalog="system" imagePlacement="top" title="Chat with a Mentor">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                            <fontDescription key="titleFontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="26"/>
+                                            <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="XzR-i0-e2z" kind="show" id="gNJ-0M-6Z9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="inx-el-3en"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="OLc-9Y-m9U" firstAttribute="top" secondItem="inx-el-3en" secondAttribute="top" constant="63" id="8sL-dk-uwT"/>
+                            <constraint firstItem="OLc-9Y-m9U" firstAttribute="leading" secondItem="inx-el-3en" secondAttribute="leading" constant="43" id="9Wk-il-OW8"/>
+                            <constraint firstItem="inx-el-3en" firstAttribute="trailing" secondItem="OLc-9Y-m9U" secondAttribute="trailing" constant="43" id="h1Z-x7-0qa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNi-IN-nxk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="zQB-oX-wFm" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="884.73282442748086" y="-14.084507042253522"/>
+        </scene>
+        <!--Leadership-->
+        <scene sceneID="Wkb-Vh-7Ri">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Leadership" storyboardName="Leadership" referencedIdentifier="Leadership" id="8EU-dc-UN2" userLabel="Leadership" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="VTI-La-Qtd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ctX-Mu-iE9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="-45"/>
+        </scene>
+        <!--Courses-->
+        <scene sceneID="9an-zs-Rf2">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Courses" storyboardName="Courses" referencedIdentifier="Courses" id="oEY-41-0f2" userLabel="Courses" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="o74-uc-v1J"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mvU-N5-hJs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1545" y="-323"/>
+        </scene>
+        <!--Hygiene-->
+        <scene sceneID="Ssw-hS-Wty">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Hygiene" storyboardName="Hygiene" referencedIdentifier="Hygiene" id="ada-L8-n9q" userLabel="Hygiene" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="qSI-t2-mmd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pd8-YY-WCQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="-189"/>
+        </scene>
+        <!--Training-->
+        <scene sceneID="Vu8-Av-UYM">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Training" storyboardName="Training" referencedIdentifier="Training" id="N7A-a8-ogs" userLabel="Training" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="hed-NF-1BI"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RvR-MO-csS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1692" y="34"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="7xm-Hg-75b">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Chat" storyboardName="Chat" referencedIdentifier="Chat" id="XzR-i0-e2z" userLabel="Chat" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="WMJ-8D-I4s"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mVP-NF-HHE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1573" y="170"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Screenshot_2023-08-08_at_1.06.04_PM-removebg-preview" width="684" height="365"/>
+        <image name="bubble.fill" catalog="system" width="128" height="110"/>
+        <image name="cross.vial.fill" catalog="system" width="91" height="128"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="wrench.adjustable.fill" catalog="system" width="128" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434957F12C43B3390097D35A /* Courses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434957F02C43B3390097D35A /* Courses.storyboard */; };
+		434957F32C43B34D0097D35A /* Hygiene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434957F22C43B34D0097D35A /* Hygiene.storyboard */; };
+		434957F52C43B3630097D35A /* Leadership.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434957F42C43B3630097D35A /* Leadership.storyboard */; };
+		434957F72C43B3700097D35A /* Training.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434957F62C43B3700097D35A /* Training.storyboard */; };
+		434957F92C43B37C0097D35A /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 434957F82C43B37C0097D35A /* Chat.storyboard */; };
 		9430E3972C3F8857008083B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E3962C3F8857008083B1 /* AppDelegate.swift */; };
 		9430E3992C3F8857008083B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E3982C3F8857008083B1 /* SceneDelegate.swift */; };
 		9430E39B2C3F8857008083B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430E39A2C3F8857008083B1 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		434957F02C43B3390097D35A /* Courses.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Courses.storyboard; path = ../Courses.storyboard; sourceTree = "<group>"; };
+		434957F22C43B34D0097D35A /* Hygiene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Hygiene.storyboard; sourceTree = "<group>"; };
+		434957F42C43B3630097D35A /* Leadership.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Leadership.storyboard; sourceTree = "<group>"; };
+		434957F62C43B3700097D35A /* Training.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Training.storyboard; sourceTree = "<group>"; };
+		434957F82C43B37C0097D35A /* Chat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
 		9430E3932C3F8857008083B1 /* T4T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T4T.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9430E3962C3F8857008083B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9430E3982C3F8857008083B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +73,11 @@
 				9430E39F2C3F8858008083B1 /* Assets.xcassets */,
 				9430E3A12C3F8858008083B1 /* LaunchScreen.storyboard */,
 				9430E3A42C3F8858008083B1 /* Info.plist */,
+				434957F02C43B3390097D35A /* Courses.storyboard */,
+				434957F22C43B34D0097D35A /* Hygiene.storyboard */,
+				434957F42C43B3630097D35A /* Leadership.storyboard */,
+				434957F62C43B3700097D35A /* Training.storyboard */,
+				434957F82C43B37C0097D35A /* Chat.storyboard */,
 			);
 			path = T4T;
 			sourceTree = "<group>";
@@ -125,9 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				434957F72C43B3700097D35A /* Training.storyboard in Resources */,
 				9430E3A02C3F8858008083B1 /* Assets.xcassets in Resources */,
+				434957F12C43B3390097D35A /* Courses.storyboard in Resources */,
 				9430E3A32C3F8858008083B1 /* Base in Resources */,
+				434957F52C43B3630097D35A /* Leadership.storyboard in Resources */,
 				9430E39E2C3F8857008083B1 /* Base in Resources */,
+				434957F92C43B37C0097D35A /* Chat.storyboard in Resources */,
+				434957F32C43B34D0097D35A /* Hygiene.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

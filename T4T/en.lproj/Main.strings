@@ -1,0 +1,51 @@
+
+/* Class = "UIButton"; configuration.title = "Sign up"; ObjectID = "0Em-Kh-u46"; */
+"0Em-Kh-u46.configuration.title" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0Em-Kh-u46"; */
+"0Em-Kh-u46.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "0ZN-Cn-uPZ"; */
+"0ZN-Cn-uPZ.placeholder" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Hygiene"; ObjectID = "4e9-p9-6ts"; */
+"4e9-p9-6ts.configuration.title" = "Hygiene";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4e9-p9-6ts"; */
+"4e9-p9-6ts.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign in"; ObjectID = "995-tz-mSc"; */
+"995-tz-mSc.configuration.title" = "Sign in";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "995-tz-mSc"; */
+"995-tz-mSc.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Training"; ObjectID = "GRZ-EQ-rQ7"; */
+"GRZ-EQ-rQ7.configuration.title" = "Training";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GRZ-EQ-rQ7"; */
+"GRZ-EQ-rQ7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "My Offerings"; ObjectID = "Qq5-aV-jd9"; */
+"Qq5-aV-jd9.text" = "My Offerings";
+
+/* Class = "UIButton"; configuration.title = "Courses"; ObjectID = "WF0-o4-jqC"; */
+"WF0-o4-jqC.configuration.title" = "Courses";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WF0-o4-jqC"; */
+"WF0-o4-jqC.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Leadership"; ObjectID = "hLC-vZ-pga"; */
+"hLC-vZ-pga.configuration.title" = "Leadership";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hLC-vZ-pga"; */
+"hLC-vZ-pga.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Chat with a Mentor"; ObjectID = "iaw-Ik-TlQ"; */
+"iaw-Ik-TlQ.configuration.title" = "Chat with a Mentor";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iaw-Ik-TlQ"; */
+"iaw-Ik-TlQ.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "sfF-F6-dTu"; */
+"sfF-F6-dTu.placeholder" = "Username";
