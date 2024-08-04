@@ -130,8 +130,7 @@
                                                     <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="leadershipButton:" destination="zQB-oX-wFm" eventType="touchUpInside" id="fzA-QC-5fq"/>
-                                                    <segue destination="8EU-dc-UN2" kind="show" id="ovh-Ud-fFu"/>
+                                                    <segue destination="oEY-41-0f2" kind="show" id="sa0-IP-p0r"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRZ-EQ-rQ7">
@@ -164,7 +163,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="inx-el-3en"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OLc-9Y-m9U" firstAttribute="top" secondItem="inx-el-3en" secondAttribute="top" constant="63" id="8sL-dk-uwT"/>
                             <constraint firstItem="OLc-9Y-m9U" firstAttribute="leading" secondItem="inx-el-3en" secondAttribute="leading" constant="43" id="9Wk-il-OW8"/>
@@ -176,16 +175,6 @@
                 <exit id="zQB-oX-wFm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="884.73282442748086" y="-14.084507042253522"/>
-        </scene>
-        <!--Leadership-->
-        <scene sceneID="Wkb-Vh-7Ri">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Leadership" storyboardName="Leadership" referencedIdentifier="Leadership" id="8EU-dc-UN2" userLabel="Leadership" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="VTI-La-Qtd"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ctX-Mu-iE9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1692" y="-45"/>
         </scene>
         <!--Courses-->
         <scene sceneID="9an-zs-Rf2">
@@ -228,6 +217,9 @@
             <point key="canvasLocation" x="1573" y="170"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="W5z-Bx-xXM"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Screenshot_2023-08-08_at_1.06.04_PM-removebg-preview" width="684" height="365"/>
         <image name="bubble.fill" catalog="system" width="128" height="110"/>
@@ -239,7 +231,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
